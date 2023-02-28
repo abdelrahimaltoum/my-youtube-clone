@@ -1,0 +1,54 @@
+.videorow{
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+.videorow > img {
+    object-fit: contain;
+    width: 337px;
+    height: 190px;
+    
+    border-radius: 20px;
+}
+.videorow-text{
+    margin-left: 14px;
+}
+.videorow-headline{
+    font-size: 15px;
+    color: #606060;
+    margin-bottom: 7px;
+
+}
+.videorow-desc{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #606060;
+}
+.span{
+    font-weight: bolder;
+    color: rgb(84, 157, 211);
+}
+.videorow-span{
+    padding: 2px;
+    color: black;
+    font-size: 15px;
+}
+.avatar{
+    height: 30px !important;
+    width: 30px !important;
+    margin-right: 7px !important;
+}
+.name-and-avatar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sub-button{
+    background-color: black !important;
+    color: white !important;
+    border-radius: 20px !important;
+    right: 10px !important;
+    width: 120px !important;
+    margin-left: 70px !important;
+    margin-bottom: 10px !important; 
+}
